@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane style="-fx-background-image: url('background.jpg'); -fx-background-size: cover;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NewProfile">
+    <center>
+        <VBox alignment="CENTER" spacing="20">
+            <children>
+                <Text fill="#FFD700" text="Enter Username" textAlignment="CENTER" wrappingWidth="382.1484375">
+                    <font>
+                        <Font name="Copperplate Gothic Bold" size="48.0" />
+                    </font>
+                </Text>
+                <AnchorPane prefHeight="400.0" prefWidth="600.0">
+                    <children>
+                        <TextField fx:id="userInput" layoutX="299.0" layoutY="132.0" prefHeight="52.0" prefWidth="158.0">
+                     <font>
+                        <Font size="22.0" />
+                     </font></TextField>
+                        <Label layoutX="165.0" layoutY="139.0" prefHeight="36.0" prefWidth="117.0" text="Username:">
+                     <font>
+                        <Font size="22.0" />
+                     </font></Label>
+                    </children>
+                    <Button layoutX="465.0" layoutY="145.0" onMouseClicked="#loadProfile" text="OK" />
+                </AnchorPane>
+            </children>
+        </VBox>
+    </center>
+</BorderPane>

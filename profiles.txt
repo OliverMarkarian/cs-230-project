@@ -1,0 +1,13 @@
+Dog 5
+sam 5
+hh 1
+j 1
+a 1
+adrian 1
+dave 1
+test 0
+s 0
+Dan 0
+l 0
+b 0
+bobby 0

@@ -1,0 +1,19 @@
+Level
+3.0
+40
+106
+0
+Grid
+21 8
+T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,
+T,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,T,
+T,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,T,
+T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,P,P,D,P,D,T,
+T,E,M,P,P,P,P,P,P,P,M,P,P,P,T,P,P,P,D,P,T,
+T,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,M,P,T,
+T,P,T,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,D,P,T,
+T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T
+Player
+1 5 0 { 0 15 }
+Actor
+B 18 3,F 3 2,

@@ -1,0 +1,25 @@
+Level
+1.0
+15
+60
+3
+Grid
+12 12
+T,T,T,T,T,T,T,T,T,T,T,T,
+T,P,P,P,P,P,P,P,P,P,P,T,
+T,P,P,P,W,P,P,P,P,P,P,T,
+T,W,W,W,P,W,W,W,W,W,D,T,
+T,P,P,P,P,P,P,P,P,P,P,T,
+T,P,P,W,P,P,P,P,P,P,P,T,
+T,P,W,P,P,P,P,P,P,P,P,T,
+T,P,W,K 2 R,P,W,Do 2 R,W,P,P,D,T,
+T,P,P,W,P,W,P,W,P,P,D,T,
+T,D,P,P,P,W,P,W,D,D,D,T,
+T,P,P,D,D,W,E 0,W,D,D,P,T,
+T,T,T,T,T,T,T,T,T,T,T,T,
+Player
+1 1 0 { 0 }
+Actor
+B 4 3,B 1 4,B 8 7,B 8 8,B 10 10,
+Di 3 6,Di 1 10,Di 2 10,Di 9 7,Di 9 8,
+Bu 2 5 R,

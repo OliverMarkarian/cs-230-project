@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane style="-fx-background-image: url('background.jpg'); -fx-background-size: cover;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LevelSelect">
+    <top>
+        <VBox alignment="CENTER" spacing="20">
+            <children>
+                <Text fill="#FFD700" text="SELECT LEVEL" textAlignment="CENTER">
+                    <font>
+                        <Font name="Copperplate Gothic Bold" size="48.0" />
+                    </font>
+                </Text>
+                <VBox alignment="CENTER" spacing="10">
+                    <children>
+                        <Button onAction="#level1Pressed" prefHeight="0.0" prefWidth="73.0" text="Level 1">
+                            <font>
+                                <Font name="Arial Black" size="12.0" />
+                            </font>
+                        </Button>
+                        <TableView fx:id="scoreTable1" prefHeight="60.0" prefWidth="404.0">
+                            <columns>
+                                <TableColumn fx:id="rankingColumn1" text="Ranking" />
+                                <TableColumn fx:id="nameColumn1" text="Name" />
+                                <TableColumn fx:id="scoreColumn1" text="Score" />
+                                <TableColumn fx:id="levelColumn1" text="Level" />
+                            </columns>
+                        </TableView>
+                    </children>
+                </VBox>
+                <VBox alignment="CENTER" spacing="10">
+                    <children>
+                        <Button onAction="#level2Pressed" prefHeight="0.0" prefWidth="74.0" text="Level 2">
+                            <font>
+                                <Font name="Arial Black" size="12.0" />
+                            </font>
+                        </Button>
+                        <TableView fx:id="scoreTable2" prefHeight="60.0" prefWidth="404.0">
+                            <columns>
+                                <TableColumn fx:id="rankingColumn2" text="Ranking" />
+                                <TableColumn fx:id="nameColumn2" text="Name" />
+                                <TableColumn fx:id="scoreColumn2" text="Score" />
+                                <TableColumn fx:id="levelColumn2" text="Level" />
+                            </columns>
+                        </TableView>
+                    </children>
+                </VBox>
+                <VBox alignment="CENTER" spacing="10">
+                    <children>
+                        <Button onAction="#level3Pressed" prefHeight="0.0" prefWidth="74.0" text="Level 3">
+                            <font>
+                                <Font name="Arial Black" size="12.0" />
+                            </font>
+                        </Button>
+                        <TableView fx:id="scoreTable3" prefHeight="60.0" prefWidth="404.0">
+                            <columns>
+                                <TableColumn fx:id="rankingColumn3" text="Ranking" />
+                                <TableColumn fx:id="nameColumn3" text="Name" />
+                                <TableColumn fx:id="scoreColumn3" text="Score" />
+                                <TableColumn fx:id="levelColumn3" text="Level" />
+                            </columns>
+                        </TableView>
+                    </children>
+                </VBox>
+                <VBox alignment="CENTER" spacing="10">
+                    <children>
+                        <Button onAction="#level4Pressed" prefHeight="0.0" prefWidth="89.0" text="Level 4">
+                            <font>
+                                <Font name="Arial Black" size="12.0" />
+                            </font>
+                        </Button>
+                        <TableView fx:id="scoreTable4" prefHeight="60.0" prefWidth="404.0">
+                            <columns>
+                                <TableColumn fx:id="rankingColumn4" text="Ranking" />
+                                <TableColumn fx:id="nameColumn4" text="Name" />
+                                <TableColumn fx:id="scoreColumn4" text="Score" />
+                                <TableColumn fx:id="levelColumn4" text="Level" />
+                            </columns>
+                        </TableView>
+                    </children>
+                </VBox>
+                <VBox alignment="CENTER" spacing="10">
+                    <children>
+                        <Button onAction="#level5Pressed" prefHeight="0.0" prefWidth="78.0" text="Level 5">
+                            <font>
+                                <Font name="Arial Black" size="12.0" />
+                            </font>
+                        </Button>
+                        <TableView fx:id="scoreTable5" prefHeight="60.0" prefWidth="404.0">
+                            <columns>
+                                <TableColumn fx:id="rankingColumn5" text="Ranking" />
+                                <TableColumn fx:id="nameColumn5" text="Name" />
+                                <TableColumn fx:id="scoreColumn5" text="Score" />
+                                <TableColumn fx:id="levelColumn5" text="Level" />
+                            </columns>
+                        </TableView>
+                    </children>
+                </VBox>
+            </children>
+        </VBox>
+    </top>
+</BorderPane>

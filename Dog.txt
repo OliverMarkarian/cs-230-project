@@ -1,0 +1,27 @@
+5
+Level
+1.0
+15
+107
+4
+Grid
+17 15
+T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,
+T,P,D,P,D,D,D,P,P,P,P,D,D,P,P,P,T,
+T,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,T,
+T,P,P,D,P,D,D,P,D,D,D,P,D,D,P,P,T,
+T,T,T,T,T,T,T,M,T,T,T,T,T,T,D,D,T,
+T,P,P,P,P,P,P,P,D,D,D,D,P,P,D,K 7 Y,T,
+T,P,P,W,P,D,D,P,D,D,D,D,D,D,D,P,T,
+T,P,P,P,P,D,D,P,D,D,D,D,D,P,P,P,T,
+T,Do 7 Y,T,T,T,T,T,M,T,T,T,T,T,T,T,T,T,
+T,P,D,D,D,D,D,P,D,D,P,P,D,D,W,P,T,
+T,P,P,P,D,D,D,P,D,D,D,P,P,P,W,P,T,
+T,D,D,D,D,D,P,P,P,D,D,P,W,P,W,E 0,T,
+T,P,D,D,P,D,P,P,P,D,D,P,P,P,W,P,T,
+T,P,P,D,D,D,P,P,P,D,D,D,D,D,W,P,T,
+T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T
+Player
+14 2 4 { 0 }
+Actor
+B 3 2,B 10 2,B 15 3,B 1 3,B 2 3,B 4 3,B 11 3,B 14 3,B 4 7,B 13 5,B 14 7,B 15 7,B 1 12,B 1 13,B 2 13,B 4 12,B 11 11,B 11 12,Di 9 2,Di 12 5,Di 15 6,Di 13 7,Di 1 10,Di 2 10,Di 3 10,Bu 4 5 R,Bu 13 12 L,Di 6 11,Di 6 12,Di 6 13,Di 7 11,Di 7 12,Di 7 13,Di 8 11,Di 8 12,Di 8 13,B 7 10,Di 7 9,

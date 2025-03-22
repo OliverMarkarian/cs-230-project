@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="720.0" stroke="BLACK" strokeType="INSIDE" width="1280.0" />
+      <Group>
+         <Canvas fx:id="gameLayer" height="600.0" layoutX="240.0" layoutY="60.0" width="800.0" />
+      </Group>
+      <Group>
+      </Group>
+      <Text fx:id="UIText" fill="WHITE" layoutX="14.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Diamond count: %d/%d. Time left: %d. Lives: %d." />
+      <Rectangle fx:id="fadeRectangle" height="720.0" width="1280.0" />
+      <Button layoutX="1233.0" layoutY="2.0" mnemonicParsing="false" onMouseClicked="#pause" text="Pause" fx:id="pauseButton" visible="false"/>
+      <Group fx:id="menuGroup" layoutX="540.0" layoutY="216.0" visible="false">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="176.0" layoutY="56.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            <Button layoutX="82.0" layoutY="193.0" mnemonicParsing="false" onMouseClicked="#exit" text="Exit" />
+            <Button layoutX="56.0" layoutY="147.0" mnemonicParsing="false" onMouseClicked="#saveExit" text="Save and Exit" />
+            <Button layoutX="67.0" layoutY="69.0" mnemonicParsing="false" onMouseClicked="#continueGame" text="Continue" />
+            <Group />
+         </children>
+      </Group>
+      <Group fx:id="menuGroupNoSave" layoutX="540.0" layoutY="216.0" visible="false">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="176.0" layoutY="56.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            <Button layoutX="82.0" layoutY="193.0" mnemonicParsing="false" onMouseClicked="#exit" text="Exit" />
+            <Button layoutX="67.0" layoutY="69.0" mnemonicParsing="false" onMouseClicked="#continueGame" text="Continue" />
+            <Group />
+         </children>
+      </Group>
+
+   </children>
+</Pane>

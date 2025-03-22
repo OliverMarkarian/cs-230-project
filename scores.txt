@@ -1,0 +1,8 @@
+sam 10 2
+Dave 20 5
+John 50 4
+Steve 34 3
+sam 10000 1
+Steve 50 1
+Yingen 10 1
+Saniya 5 1

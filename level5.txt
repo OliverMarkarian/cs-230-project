@@ -1,0 +1,18 @@
+Level
+1.0
+15
+120
+4
+Grid
+11 7
+P,T,T,T,T,T,T,T,T,T,T,
+T,P,P,P,P,P,P,P,P,P,T,
+T,P,P,P,P,P,P,P,P,P,T,
+T,P,P,P,P,P,P,P,P,P,T,
+T,P,P,P,P,P,P,P,P,P,T,
+T,P,P,P,D,P,P,P,P,P,T,
+T,T,T,T,T,T,T,T,T,T,T,
+Player
+0 0 0 { 0 }
+Actor
+B 5 2, Bu 5 4 L,A 5 5,A 6 5,A 7 5,A 8 5,A 4 5,A 3 5,A 2 5,A 2 4,A 3 4,

@@ -1,0 +1,31 @@
+Level
+1.0
+15
+60
+6
+Grid
+12 16
+T,T,T,T,T,T,T,T,T,T,T,T,
+T,P,D,D,D,D,P,P,D,D,P,T,
+T,P,P,P,D,D,D,D,P,D,D,T,
+T,P,D,D,P,P,D,D,D,D,D,T,
+T,W,W,W,W,W,W,W,W,W,D,T,
+T,D,P,P,P,P,P,P,D,P,P,T,
+T,D,P,W,P,P,W,P,D,D,D,T,
+T,D,P,W,K 3 R,P,W,P,D,P,D,T,
+T,P,P,P,W,W,W,P,D,D,P,T,
+T,D,D,P,P,P,P,P,P,D,P,T,
+T,Do 3 R,W,W,W,W,W,W,W,W,W,T,
+T,P,P,P,P,P,P,D,D,W,P,T,
+T,P,W,K 4 G,P,W,P,D,P,W,E 0,T,
+T,P,P,W,W,W,P,D,P,W,P,T,
+T,D,P,P,P,P,P,D,P,Do 4 G,P,T,
+T,T,T,T,T,T,T,T,T,T,T,T,
+Player
+1 1 0 { 0 }
+Actor
+B 1 2,B 2 2,B 4 3,B 5 3,B 7 1,B 8 2,B 10 1,
+B 10 8,B 9 7,B 9 5,B 8 9,B 1 8,B 8 13,B 8 12,
+Di 1 3,Di 3 2,Di 6 1,Di 10 5,Di 10 9,Di 4 6,
+Di 5 6,Di 5 7,Di 4 12,Di 8 14,
+Bu 3 5 L,Bu 2 11 L,
